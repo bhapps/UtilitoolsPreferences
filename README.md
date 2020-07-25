@@ -1,8 +1,8 @@
-# Android Utilitools - Security
+# Android Utilitools - Preferences
 
-[![](https://jitpack.io/v/bhapps/UtilitoolsSecurity.svg)](https://jitpack.io/#bhapps/UtilitoolsSecurity)
+[![](https://jitpack.io/v/bhapps/UtilitoolsPreferences.svg)](https://jitpack.io/#bhapps/UtilitoolsPreferences)
 
-Android Utilities Security has functions for fast prototyping and development of Android Applications that require features and functionality to build upon.
+Android Utilities Preferences has functions for fast prototyping and development of Android Applications that require features and functionality to build upon.
 * Still Under Development, docs, updates to be on going
 
 # To be Done
@@ -31,45 +31,11 @@ allprojects {
 
 <pre>
 dependencies {
-   implementation 'com.github.bhapps:UtilitoolsSecurity:0.0.1-alpha'
+   implementation 'com.github.bhapps:UtilitoolsPreferences:0.0.1-alpha'
 }
 </pre>
 
-* To return an encrypted string value, pass your string to encrypt and use the function:
-
-<pre>
-bhapps.utilitools.security.java.security.encryption.EncryptDecrypt.getEncryptedStringFromString(string_to_encrypt)
-</pre>
-
-* To return an decrypted string value, pass your encrypted string and use the function:
-
-<pre>
-bhapps.utilitools.security.java.security.encryption.EncryptDecrypt.getEncryptedStringFromString(encrypted_string_to_decrypt)
-</pre>
-
 # Functions
-
-<pre>
-    /*
-     *
-     * getEncryptedStringFromString(string)
-     * get encrypted string from passed string value
-     * bhapps.utilitools.security.java.security.encryption.EncryptDecrypt.getEncryptedStringFromString(string)
-     * returns String
-     *
-    */
-</pre>
-
-<pre>
-    /*
-     *
-     * getDecryptedStringFromString(string)
-     * get decrypted string from passed string value
-     * bhapps.utilitools.security.java.security.encryption.EncryptDecrypt.getDecryptedStringFromString(string)
-     * returns String
-     *
-    */
-</pre>
 
 # Libraries
 
